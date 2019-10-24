@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    border: 2px solid black;
+    background-image: url(https://images.photowall.com/products/58350.jpg?h=699&q=85);
+    background-size: cover;
+}
+
+.map-limits {
+    width: 1000px;
+    height: 600px;
+    border: 2px dashed black;
+    pointer-events: none;
+    touch-action: none;
+    position: absolute;
+}
+
+.map-pin {
+    width: 60px;
+    height: 80px;
+    background-image: url(https://cdn.onlinewebfonts.com/svg/img_266290.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
